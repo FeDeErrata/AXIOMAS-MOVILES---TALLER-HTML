@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+  <!--Primera Fuente-->  
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Young+Serif&display=swap" rel="stylesheet">
+<!--SEGUNDA FUENTE-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Climate+Crisis&family=Young+Serif&display=swap" rel="stylesheet">
+<!-- Fuente Akira, porque sí hablamos del internet hablamos de CyberPunk Japonés. Pienso en películas cuando hago esto, Ghost in the shell, Matrix... tal vez soy la peor versión de Neo, su antítesis, bregando por hacer un código que me copee y se vea lindo. Pretendo que la página tenga una estética oscura pero con luz, que se vea medio misteriosa, el rosado es un color poco apreciado. Pienso que debe ser misteriosa porque para mi esto es un misterio, es cómo saber palabras de un idioma pero hablarlo sin conectores, te funciona pero no es lindo, me falta practicar, pero no tengo más tiempo, ya le he dedicado casi dos días enteros y tengo más cosas por hacer-->
+<link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+
+  </head>
+<!--los colores los escogí porque se ven lindos, genuinamente no soy muy bueno con esto y me cansa hacerlo, me parece que tiene una estética interesante, como oscura y al tiempo con luz.-->
+
+  <body>
+    <nav>
+      <a href="/" aria-current="page">PRSENTACIÓN</a>
+      <!--Es verdad que en lugar de hacer dos páginas distintas podría únicamente haber puesto todo en una sola, pero me pareció interesante separarlos por la capacidad de hacer cada página con unas características diferentes, aunque creo que no fueron muchas diferencias -->
+      <a href="/page2.html">AXIOMAS</a>
+    </nav>
+  
+    <main>
+      <hr>
+      <!--la animación del título la pensé porque pienso el internet y los "axiomas" que quiero dar  son movibles, son cambiantes, y creo que de alguna manera el movimiento y la animación del título lo demuestran, por eso mismo el texto se va reduciendo y se vuelve a crear al momento de llegar a su base, un cero y un uno--><!--Todo la animación la copie y la pegue de una de la paginas que nos mando la profe, le cambie los tiempos, la fuente y el texto, no logre disminuir la distancia entre el texto animado y la línea de abajo, entonces fue frustrante porque sin la animación quedaba lindo, pero la animación también se ve cool y creo que tiene un sentido estético aunque por alguna razón se ve fea a comparación de la que se veía al copiar todo. Me he demora horas haciendo esto, llevo varios días tratando de que funcione y creo que más o menos lo hace, pero igual es decepcionante ver como queda-->
+      <div id="container">
+        <span id="text1"></span>
+        <span id="text2"></span>
+    </div>
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 200 -120" />
+                </filter>
+            </defs>
+        </svg> 
+      <hr>
+      <h2> Sobre la edición digital </h2> 
+     <!-- Pienso en la edición digital como el manejo general de contenido, (en mi interés personal, un tipo de contenido específico)  en la web y la búsqueda de su manejo y acceso. -->
+      <hr class="Bajo">
+
+      <div style="text-align: center;">
+
+   <!--La fotografía fue una de mis bases de estilo para el color y la estética de la página, además de eso me parece interesante que sean diferentes ojos, como un pluralidad de miradas y subjetividades "se plural como el universo" creo que dice un poema de Fernando Pessoa-->
+
+
+      <img src="Fotos/Ojos.jpg" alt="ojos">
+      </div>
+      <hr class="Bajo">
+         <p>Llamar axiomas a estos puntos es una contradicción. El axioma matemático es un punto de partida casi metafísico y así mismo inamovible. Aquí, lo que propongo son puntos de partida que son conscientes de ser posicionamientos temporales y estratégicos políticamente.<!--La idea del posicionamiento estratégico es una idea que retomó de Stuart Hall, que lo plantea en términos de raza pero que siento se puede aplicar a toda acción y pensamiento social. Re posmo, lo sé, pero no hay nada más posmoderno que el internet, no hay nada más rizomático que la web... la web es un visaje --> Nada está escrito sobre piedra, pero debemos pararnos sobre algo para comenzar a cambiar y transformar. Por eso estos “axiomas” son por esencia cambiantes y así mismo en esencia históricamente situados.  </p>
+
+    </main>
+  </body>
+
+  <!-- Ahora viene lo peor. No sé usar GitHub y me abruma la idea de hacerlo --> <!-- En conclusión, esto es muy divertido, me gusta, parece artística la manera de creación, tal vez lo es. Aun así me abruma, siento que me sobrepasa la labor de construir esta página, sé que no es excelente, tampoco muy linda ni muy elaborada, aunque siendo sincero me siento orgulloso, no sé qué más podría tener. -->
+</html>
